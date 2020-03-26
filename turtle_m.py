@@ -1,0 +1,12 @@
+import turtle 
+window=turtle.Screen()
+inna= turtle.Turtle()
+inna.forward(50)
+inna.left(90)
+inna.forward(50)
+inna.left(90)
+inna.forward(50)
+inna.left(90)
+inna.forward(50)
+inna.left(90)
+turtle.mainloop()
