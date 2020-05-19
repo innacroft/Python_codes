@@ -13,7 +13,7 @@ def binary_search(numbers,number_to_find,low,high):
 
 if __name__ == "__main__":
     numbers = [1,3,4,5,6,9,10,11,25,27,28,34,36,49,51] #lista de numeros ordenados inicial
-    number_to_find = int(raw_input('Ingresa un numero: ')) #solicita  al usuario un numero para buscarlo en la lista anterior
+    number_to_find = input('Ingresa un numero: ') #solicita  al usuario un numero para buscarlo en la lista anterior
     result= binary_search(numbers,number_to_find,0, len(numbers)-1) 
     if result is True:
         print('El numero esta en la lista')
